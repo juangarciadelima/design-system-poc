@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "allowJs": false,
+    "isolatedModules": true,
+    "noEmit": false,
+    "paths": {
+      "@*": ["./src/*"],
+      "@components/*": ["./src/components/*"],
+      "@constants/*": ["./src/constants/*"],
+      "@hooks/*": ["./src/hooks/*"],
+      "@themes/*": ["./src/themes/*"],
+      "@legacy/*": ["./src/legacy/*"],
+      "@legacy/components/*": ["./src/legacy/components/*"],
+      "@legacy/constants/*": ["./src/legacy/constants/*"],
+      "@legacy/themes/*": ["./src/legacy/themes/*"],
+      "@utils/*": ["./src/utils/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.app.json"
+    },
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
+}
